@@ -102,16 +102,23 @@ width:100px;
        
         <h3>Time & Location</h3>
         <p>26 Aug 2024, 5:00 pm - 9:00 pm<br>Jawaharlal Nehru Stadium, New Delhi-110003, India</p>
- <div class="map">
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.054184457672!2d77.22189721440728!3d28.631451882418743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce47c160f621d%3A0x6a8bb3e58a336346!2sGreen%20Summit%20Convention%20Center!5e0!3m2!1sen!2sin!4v1625057875141!5m2!1sen!2sin" 
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-  </iframe>
-</div>
+  <div class="map">
+          <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.054184457672!2d77.22189721440728!3d28.631451882418743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce47c160f621d%3A0x6a8bb3e58a336346!2sGreen%20Summit%20Convention%20Center!5e0!3m2!1sen!2sin!4v1625057875141!5m2!1sen!2sin" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+          </iframe>
+      </div>
+      <button class="redirect-button" onclick="redirectToMap()">Redirect to Map</button>
+      
+      <script>
+          function redirectToMap() {
+              window.location.href = 'https://maps.app.goo.gl/6yeP2okrCdTzC7TG6';
+          }
+      </script>
 
         <h3>Tickets</h3>
         <p>Ticket type: General admission<br>Price: ₹2,000<br>Tickets available</p>
