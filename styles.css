@@ -52,7 +52,7 @@ background: #FFD3FB;
 margin: 30px 60px 30px 100px;
 }
 .hero-section {
-    background-image: url('image/robot-farming.jpg'); 
+    background-image: url('robot-farming.jpg'); 
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);
@@ -342,12 +342,12 @@ background-color:transparent;
 
 .scroll-left {
     left: 10px;
-    background-image: url('image/left-arrow.png');
+    background-image: url('left-arrow.png');
 }
 
 .scroll-right {
     right: 10px; 
-    background-image: url('image/right-arrow.png'); 
+    background-image: url('right-arrow.png'); 
 }
 .container {
     max-width: 1200px;
@@ -361,7 +361,7 @@ padding:20px;
  margin:60px 40px 40px 40px;
 }
 .back{
-background-image: url('image/cont.jpg'); 
+background-image: url('cont.jpg'); 
 height:100%;
 widdth:100%;
 padding:20px;
